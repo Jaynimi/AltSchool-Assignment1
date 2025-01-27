@@ -50,8 +50,10 @@ body::-webkit-scrollbar {
     color: white;
     /* font-family: 'Courier New', monospace; */
     font-family: 'Montserrat', sans-serif;
-    padding-top: 30px;
+    padding: 10px;
+    background-color: rgba(85, 88, 97, 0.644);
     cursor: pointer;
+    border-radius: 1rem;
 }
 
 .biographyText {
