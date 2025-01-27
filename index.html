@@ -43,11 +43,32 @@
         </p>
       </div>
     </div>
+    <button class="back-to-top" onclick="scrollToTop()">🔝</button>
     <footer class="siteFooter">
       <p>Ikosi-Ketu, Ketu, Lagos</p>
       <p>&copy; <span id="year"></span> EyesLikeJay</p>
     </footer>
     <script>
+      // Get the back-to-top button
+      const backToTopButton = document.querySelector(".back-to-top");
+
+      // Show or hide the button based on scroll position
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+
+      // Scroll to the top of the page
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Smooth scrolling
+        });
+      }
+
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>

@@ -144,3 +144,20 @@ body::-webkit-scrollbar {
 .form-group label {
     padding-bottom: 5px;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #143353ea;
+    color: #fff;
+    padding: 3px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+.back-to-top:hover {
+    background-color: #0056b3;
+}
