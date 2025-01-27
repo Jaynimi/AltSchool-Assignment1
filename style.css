@@ -127,6 +127,10 @@ body::-webkit-scrollbar {
 }
 
 /* Form Styles */
+.formContainer {
+    margin-bottom: 50px;
+}
+
 .color {
     color: black;
 }
