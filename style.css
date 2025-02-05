@@ -161,3 +161,7 @@ body::-webkit-scrollbar {
 .back-to-top:hover {
     background-color: #0056b3;
 }
+
+h2 {
+    color: #555;
+}
